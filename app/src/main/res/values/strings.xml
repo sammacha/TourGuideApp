@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">TourGuide</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sites">SITES</string>
+    <string name="rocks">ROCKS</string>
+    <string name="cities">CITIES</string>
+    <string name="info">INFO</string>
+    <string name="opera_house">Opera House</string>
+    <string name="Opera_description">A place to take in a spectacular horizon, then broaden your own. Home to the Royal Ballet.</string>
+    <string name="sydney_australia">Sydney, Australia</string>
+    <string name="opera_number">567374828374</string>
+    <string name="opera_opening">Mondays - Fridays</string>
+    <string name="opera_email">operahouse254@gmail.com</string>
+    <string name="bridge_heading">SYDNEY HARBOUR BRIDGE</string>
+    <string name="bridge_descriprition">The Sydney Harbour Bridge is a steel through arch bridge across Sydney Harbour that carries rail, vehicular, bicycle, and pedestrian traffic between the Sydney central business district and the North Shore</string>
+    <string name="cathedral">St Mary\'s Cathedral</string>
+    <string name="cath_location">St Marys Rd, Sydney NSW 2000, Australia</string>
+    <string name="cath_phone">+61 2 9220 0400</string>
+    <string name="cath_opening">All times</string>
+    <string name="cath_architect">William Wardell</string>
+    <string name="architectural_style">Gothic Revival architecture</string>
+    <string name="height">245′</string>
+    <string name="the_rock_neighbourhood">The Rocks is a neighbourhood of historic laneways in the shadow of Sydney Harbour Bridge. Locals and tourists mingle at the open-air Rocks Markets, purchasing street food and handmade fashions. The area has some of Sydney’s oldest pubs and many of the upscale restaurants have harbour views. The Museum of Contemporary Art offers local and international exhibits. Buskers perform along the busy harbourfront promenade.</string>
+    <string name="rock_image">Image representing the rock city</string>
+    <string name="prestigious_pubs">The following are the most prestigious pubs in The Rock City</string>
+    <string name="rocks_heading">THE ROCKS</string>
+    <string name="royal_george">Exposed-brick venue with a gastropub menu and leather sofas, plus a balcony overlooking pool tables.
+Dimly lit, The Royal George has an easy warmth and old-world charm that makes it a great place to relax and share some classic pub food over a pint or two with friends.</string>
+    <string name="edinburgh">Bistro grub and cocktails in a 2-floor establishment with a stylish lounge bar and a rooftop deck.The castle boasts countless connections to the continent from an 11th-century saint born in Hungary all the way through to the 1972 Eurovision Song Contest.</string>
+    <string name="mountain">Located one minutes walk from Sydneys Central Station and interstate bus terminal, you cannot get much better than the Mountbatten Hotel… The Mountbatten Hotel is a 68 bed homely and relaxed hostel right in the heart of the city. With an atmosphere that appeals to both young and mature travellers.</string>
+    <string name="darling">Darling Harbour is a harbour adjacent to the city centre of Sydney, New South Wales, Australia. It is also a large recreational and pedestrian precinct that is situated on western outskirts of the Sydney central business district.</string>
+    <string name="melbourne">Melbourne is the coastal capital of the southeastern Australian state of Victoria. At the citys centre is the modern Federation Square development, with plazas, etc</string>
+    <string name="newcastle">Newcastle is a harbour city in the Australian state of New South Wales. Its plentiful beaches are linked by the Bathers Way, a coastal walk stretching between Nobbys Beach and Merewether Beach.</string>
+    <string name="brisbane">Brisbane, capital of Queensland, is a large city on the Brisbane River. Clustered in its South Bank cultural precinct are the Queensland Museum and Sciencentre, with noted interactive exhibitions.</string>
+    <string name="perth">Perth, capital of Western Australia, sits where the Swan River meets the southwest coast. Sandy beaches line its suburbs, and the huge, riverside Kings Park and Botanic Garden on Mount Eliza offer sweeping views of the city.</string>
+    <string name="darwin">Darwin is the capital of Australias Northern Territory and a former frontier outpost. Its also a gateway to massive Kakadu National Park. Its popular waterfront area has several beaches and green areas like Bicentennial Park.</string>
+    <string name="adelaide">Adelaide is South Australia’s cosmopolitan coastal capital. Its ring of parkland on the River Torrens is home to renowned museums such as the Art Gallery of South Australia, displaying expansive collections including noted Indigenous art</string>
+    <string name="wollongong">Wollongong is a coastal city in Australia, south of Sydney along the Grand Pacific Drive. Surfing beaches and rock pools line the coastline. Trails encircle the forests and rocky cliffs of Mt. Keira in the Illawarra mountain range</string>
+    <string name="melbourne_heading">Melbourne City</string>
+    <string name="newcatle_heading">NewCastle</string>
+    <string name="brisbane_heading">Brisbane</string>
+    <string name="perth_heading">Perth City</string>
+    <string name="darwin_heading">Darwin City</string>
+    <string name="adelaide_heading">Adelaide City</string>
+    <string name="wollongong_heading">Wollongong City</string>
+    <string name="sydney_info">Sydney, capital of New South Wales and one of Australia\'s largest cities, is best known for its harbourfront Sydney Opera House, with a distinctive sail-like design. Massive Darling Harbour and the smaller Circular Quay port are hubs of waterside life, with the arched Harbour Bridge and esteemed Royal Botanic Garden nearby. Sydney Tower’s outdoor platform, the Skywalk, offers 360-degree views of the city and suburbs.</string>
+    <string name="history_of_sydney">The modern history of the city began with the arrival of a First Fleet of British ships in 1788 and the foundation of a penal colony by Great Britain. From 1788 to 1900 Sydney was the capital of the British colony of New South Wales. An elected city council was established in 1840.</string>
+</resources>

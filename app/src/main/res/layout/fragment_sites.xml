@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D7CCC8">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#FFFFFF"
+            android:orientation="vertical"
+            tools:context=".SitesFragment">
+
+            <ImageView
+                android:id="@+id/opera_house"
+                android:layout_width="wrap_content"
+                android:layout_height="173dp"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/sydney" />
+
+            <TextView
+                android:id="@+id/opera_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginStart="50dp"
+                android:text="@string/opera_house"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginStart="30dp"
+                android:text="@string/Opera_description" />
+
+            <ListView
+                android:id="@+id/opera_list"
+                android:layout_width="wrap_content"
+                android:divider="#9C27B0"
+                android:dividerHeight="1px"
+                android:layout_height="200dp"
+                android:drawSelectorOnTop="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="170dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/bridge"
+                android:layout_marginStart="10dp" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:textStyle="bold"
+                    android:text="@string/bridge_heading"
+                    android:layout_marginStart="20dp" />
+
+                <TextView
+                    android:padding="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/bridge_descriprition"
+                    android:layout_marginStart="10dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#FFFFFF"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="210dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/cathedral" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cathedral"
+                android:layout_marginLeft="50dp"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:layout_marginStart="50dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textStyle="italic"
+                android:textSize="17sp"
+                android:text="The Cathedral Church and Minor Basilica of the Immaculate Mother of God, Help of Christians is the cathedral church of the Roman Catholic Archdiocese of Sydney and the seat of the Archbishop of Sydney, currently Anthony Fisher OP"/>
+
+            <ListView
+                android:id="@+id/cathedral_list"
+                android:layout_width="match_parent"
+                android:divider="#9C27B0"
+                android:dividerHeight="1px"
+                android:layout_height="350dp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

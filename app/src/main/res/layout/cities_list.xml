@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_margin="5dp"
+    android:background="#757575"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/city_icon"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/melbourne" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_gravity="top"
+            android:layout_width="wrap_content"
+            android:textColor="#FFA000"
+            android:layout_height="wrap_content"
+            android:id="@+id/city_heading"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"
+            android:text="@string/melbourne_heading"/>
+        <TextView
+            android:id="@+id/city_descriprition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_margin="5dp"
+            android:textColor="#FFECB3"
+            android:text="@string/melbourne"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#212121"
+    android:layout_height="match_parent"
+    tools:context=".RocksFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#BDBDBD"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="256dp"
+                android:src="@drawable/rocks"
+                android:contentDescription="@string/rock_image" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:text="@string/rocks_heading"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#5D4037"
+                android:fontFamily="serif"
+                android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:text="@string/the_rock_neighbourhood"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/prestigious_pubs"
+                android:textStyle="italic"
+                android:textColor="#FF4081"
+                android:layout_marginStart="5dp" />
+
+            <ListView
+                android:id="@+id/pub_list"
+                android:layout_width="match_parent"
+                android:layout_height="500dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
